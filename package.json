@@ -1,0 +1,19 @@
+{
+  "name": "chatwoot-zernio-webhook",
+  "version": "1.0.0",
+  "description": "Webhook server to connect Chatwoot and Zernio",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["chatwoot", "zernio", "webhook"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@zernio/node": "^1.0.0",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  }
+}
